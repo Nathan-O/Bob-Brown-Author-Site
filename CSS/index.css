@@ -1,0 +1,204 @@
+/*
+////////////////////////////////////////////////////////////////
+
+					Bob Brown Author Site
+					   CSS Style Sheet
+
+////////////////////////////////////////////////////////////////					   
+*/
+
+body {
+	background-color: lightgrey;	
+}
+
+h1 {
+	font-family: 'Stalinist One', cursive;
+}
+
+ul {
+	background-color: orange;
+}
+
+li {
+	margin-left: 5px;
+}
+
+.panel {
+	background-color: white;
+	height: 1100px;
+	width: 1100px;
+	padding: 10px;
+	border: 1px green dashed;
+	margin: 0px auto;
+}
+
+.panContainer {
+	background-color: lightgrey;
+	margin: 5px;
+	padding: 10px;
+	border: 1px blue solid;
+	
+}
+
+#bobHeader {
+	background-color: white;
+	font-family: 'Stalinist One', cursive;
+}
+
+#page-title {
+	font-size: 60px;
+}
+
+.nav-container {
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+/*
+////////////////////////////////////
+
+ 	      	Portal
+
+////////////////////////////////////
+*/
+
+#linksContainer {
+	height: 950px;
+    width: 950px;
+	margin: 0px auto;
+	display: table;
+
+}
+
+#portLimit {
+	/**/
+	height: 950px;
+    width: 950px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.portal {
+	/**/
+	/*border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	margin: 0px auto;
+	margin-top: 10%;
+	padding-top: 10%;
+	padding: 10%;*/
+	position: relative;
+	border-radius: 50%;
+	margin: 0px auto;
+	/*padding-top: 10%;*/
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#outermost {
+	/**/
+	background-color: orange;
+	margin-top: ;
+	height: 900px;
+	width: 900px;
+	left: 15px;
+}
+
+#middlePort {
+	/**/
+	background-color: white;
+	height: 850px;
+	width: 850px;
+	left: 25px;
+}
+
+#innermost {
+	/**/
+	background-color: yellow;
+	height: 775px;
+	width: 775px;
+	left: 37.5px;
+}
+
+#contentPort {
+	/**/
+	background-color: lightgrey;
+	text-align: center;
+	height: 700px;
+	width: 700px;
+	left: 37.5px;
+}
+
+#contLink {
+	height: 650px;
+	width: 650px;
+    text-align: center;
+	margin: 0px auto;
+	left: 25px;
+}
+
+
+/*
+////////////////////////////////////
+
+			Section
+
+////////////////////////////////////
+*/
+
+
+
+
+
+
+
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+
+////////// Notes
+
+links panel has a portal. 
+
+- set of a few divs made into circles, all one inside the other. 
+
+	-outermost: has a space sort of high orbit planet 
+				view as a background image.
+
+	-middle: has a white background, a lot of margins 
+			 and a lot of padding.
+
+	-innermost: has a transparent background (making 
+				the planet picture visible again) and 
+				a good sizing on it as well (still be 
+				scaleable)
+
+	-content: circle as well, solid background with 
+			  links and such in the middle (maybe just 
+			  off sides...we'll see, circle might be 
+			  hard);
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+
+////////// Snippets
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+*/
+
+
+
+
+
+
+
+
