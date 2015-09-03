@@ -53,8 +53,18 @@ li {
 	background-color: white;
 }
 
+/*
+///////////////////////////////////
 
+			About Page
 
+///////////////////////////////////
+*/
+
+.imgContainer {
+	position: relative;
+	float: right;
+}
 
 
 
@@ -64,6 +74,7 @@ li {
 ////////////////////////////////////
 
  	      	Portal
+ 	       Links Page
 
 ////////////////////////////////////
 */
@@ -93,17 +104,21 @@ li {
 	margin-top: 10%;
 	padding-top: 10%;
 	padding: 10%;*/
+	background-color: rgba(0, 0, 0, 0);
 	position: relative;
 	border-radius: 50%;
 	margin: 0px auto;
 	/*padding-top: 10%;*/
 	display: table-cell;
 	vertical-align: middle;
+	border: 10px white solid;
 }
 
 #outermost {
 	/**/
-	background-color: orange;
+	/*background-color: orange;*/
+	background-image: url(../img/link-background.jpg);
+	background-size: cover;
 	margin-top: ;
 	height: 900px;
 	width: 900px;
@@ -112,35 +127,37 @@ li {
 
 #middlePort {
 	/**/
-	background-color: white;
+	/*background-color: white;*/
 	height: 850px;
 	width: 850px;
-	left: 25px;
+	left: 15px;
 }
 
 #innermost {
 	/**/
-	background-color: yellow;
+	/*background-color: yellow;*/
 	height: 775px;
 	width: 775px;
-	left: 37.5px;
+	left: 32.5px;
 }
 
 #contentPort {
 	/**/
-	background-color: lightgrey;
+	background-color: rgba(211, 211, 211, 0.75);
 	text-align: center;
-	height: 700px;
-	width: 700px;
-	left: 37.5px;
+	height: 600px;
+    width: 600px;
+    left: 80.5px;
 }
 
 #contLink {
-	height: 650px;
-	width: 650px;
+	height: 600px;
+	width: 600px;
     text-align: center;
 	margin: 0px auto;
 	left: 25px;
+	display: table-cell;
+    vertical-align: middle;
 }
 
 
