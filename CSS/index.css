@@ -48,6 +48,7 @@ li {
 
 #page-title {
 	font-size: 60px;
+
 }
 
 .nav-container {
@@ -57,10 +58,37 @@ li {
 /*
 ///////////////////////////////////
 
-			Books Page
+			Home Page
 
 ///////////////////////////////////
 */
+
+#carousel-bob-home {
+	height: 500px;
+	width: 1140px;
+}
+
+.caro-pan {
+	/**/
+	height: 490px;
+	width: 1130px;
+	text-align: center;
+}
+
+.caro-img {
+	/**/
+	position: relative;
+	margin: 0px auto;
+
+}
+
+.caro-text {
+	background-color: rgba(0, 0, 0, .35);
+}
+
+.caro-title {
+	font-family: 'Stalinist One', cursive;
+}
 
 .well {
 	background-color: blue;
