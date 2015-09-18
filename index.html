@@ -1,7 +1,7 @@
 <!--
 ////////////////////////////////////////////////////////////
 
-							Name
+					 Bob's Author Site
 						Page - HTML
 
 ////////////////////////////////////////////////////////////
@@ -33,7 +33,7 @@
 			<!-- Local -->
 		<link rel="stylesheet" type="text/css" href="CSS/index.css">
 		<link rel="stylesheet" type="text/css" href="CSS/animate.css">
-		<script type="text/javascript" src="Javascript/index.js"></script>						
+		<script type="text/javascript" src="Javascript/index.js"></script>
 	</head>
 
 	<body>
@@ -67,17 +67,52 @@
 				    			<div class="panContainer col-md-8" id="home-page">
 
 				    				<!-- *** | Home Content | *** -->
-					    			<br/>
-					    			<h4>Words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words</h4>
-					    			<h5>Words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words</h5>
-					    			<h6>Words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words</h6>
-					    			<br/>
-					    			<p>- Wordsmithy</p>
+					    			<div id="carousel-bob-home" class="carousel slide" data-ride="carousel" data-interval="5000">
+								        	<!-- Indicators -->
+								        <ol class="carousel-indicators">
+								              <li data-target="#carousel-bob-home" data-slide-to="0" class="active"></li>
+								              <li data-target="#carousel-bob-home" data-slide-to="1"></li>
+								              <li data-target="#carousel-bob-home" data-slide-to="2"></li>
+								        </ol>
 
-					    			<div class="well well-lg"> <!-- TEST -->
-					    				<h2>This is a test <small>Test Well</small></h2>
-					    				<p>words words words words words words words words words words words words words words words words words words words words words words words words words</p>
-					    			</div>
+								            <!-- Wrapper for slides -->
+								        <div class="carousel-inner" role="listbox">
+
+								            <div class="item caro-pan active">
+								                <img class="caro-img" src="img/authorPic_ed.jpg" alt="...">
+								                <div class="carousel-caption caro-text">
+								                    <h2 class="caro-title">Test 1</h2>
+								                    <p>Words words words</p>
+								                </div>
+								            </div>
+
+								            <div class="item caro-pan">
+								                <img class="caro-img" src="img/lost-enforcer-lrg_caro-ed.jpg" alt="...">
+								                <div class="carousel-caption caro-text">
+								                    <h2 class="caro-title">The Lost Enforcer</h2>
+								                    <p>Availible now.</p>
+								                </div>
+								            </div>
+
+								            <div class="item caro-pan">
+								                <img class="caro-img" src="img/short-stories_Collection.jpg" alt="...">
+								                <div class="carousel-caption caro-text">
+								                    <h2 class="caro-title">Short Stories</h2>
+								                    <p>Availible now.</p>
+								                </div>
+								            </div>
+								        </div>
+
+								            <!-- Controls -->
+								        <a class="left carousel-control" href="#carousel-bob-home" role="button" data-slide="prev">
+								            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								            <span class="sr-only">Previous</span>
+								        </a>
+								        <a class="right carousel-control" href="#carousel-bob-home" role="button" data-slide="next">
+								            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								            <span class="sr-only">Next</span>
+								        </a>
+								    </div>
 
 					    		</div>
 				    		</div>
@@ -85,13 +120,13 @@
 			    	</div>
 
 			    		<!-- *** Books panel *** -->
-			    	<div role="tabpanel" class="tab-pane" id="books"> 
-			    		<div class="panel panel-info main-panel">
+			    	<div role="tabpanel" class="tab-pane" id="books">
+			    		<div class="panel panel-info main-panel" id="books-panel">
 			    			<div class="panel-heading">
 			    				<h1>Books <small>The Godbob Collection</small></h1>
 			    			</div>
 			    			<div class="panel-body">
-					    		<div class="panContainer"id="booksContainer">	
+					    		<div class="panContainer" id="booksContainer">
 										<!-- *** | Books Content | *** -->
 									<div class="panel panel-info">
 										<div class="panel-heading">
@@ -127,7 +162,7 @@
 								    			</div>
 								    			<div class="media-body">
 								    				<h3 class="media-heading">The Dragon, the Damsel, and the Knight</h3>
-								    				<p class="summary">As a young girl living with her father near the River Village, Lori had few worries. She had her father and friends and special trip up the mountain to pick berries to put away for winter. 
+								    				<p class="summary">As a young girl living with her father near the River Village, Lori had few worries. She had her father and friends and special trip up the mountain to pick berries to put away for winter.
 								    					<br/><br/>
 													But when Lori gets lost on the mountain and is forced to spend the night alone in the forest she finds more than berries. She finds forty feet of dragon with green scales, horns and teeth aplenty who decides she is the perfect damsel.
 														<br/><br/>
@@ -139,6 +174,94 @@
 								    		</div>
 										</div>
 									</div>
+
+									<div class="panel panel-info">
+									    <div class="panel-heading">
+									        <h2>Upcoming Projects</h2>
+									    </div>
+									    <div class="panel-body">
+
+									        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+									            <div class="panel panel-default">
+									                <div class="panel-heading" role="tab" id="headingOne">
+									                    <h4 class="panel-title">
+									                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									                            Enforcer Rebirth <small>2nd in Lost Enforcer Saga</small>
+									                        </a>
+									                    </h4>
+									                </div>
+									                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									                    <div class="panel-body">
+									                        A sequel to <em>The Lost Enforcer</em> written in collaboration with Irene Radford.
+									                    </div>
+									                </div>
+									            </div>
+
+									            <div class="panel panel-default">
+									                <div class="panel-heading" role="tab" id="headingTwo">
+									                    <h4 class="panel-title">
+									                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									                            Enforcer Triumphant <small>3rd in Lost Enforcer Saga</small>
+									                        </a>
+									                    </h4>
+									                </div>
+									                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									                    <div class="panel-body">
+									                        Third installment in <em>The Lost Enforcer</em> series. Written in collaboration with Irene Radofrd
+									                    </div>
+									                </div>
+									            </div>
+
+									            <div class="panel panel-default">
+									                <div class="panel-heading" role="tab" id="headingThree">
+									                    <h4 class="panel-title">
+									                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									                            The Tejano Revolution
+									                        </a>
+									                    </h4>
+									                </div>
+									                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									                    <div class="panel-body">
+									                        A book by Bob Brown
+									                    </div>
+									                </div>
+									            </div>
+
+									            <div class="panel panel-default">
+									                <div class="panel-heading" role="tab" id="headingFour">
+									                    <h4 class="panel-title">
+									                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+									                            Lori and the Dragon Hunters
+									                        </a>
+									                    </h4>
+									                </div>
+									                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+									                    <div class="panel-body">
+									                        Sequel to the 2013? children's book <em>The Dragon, the Damsel, and the Knight</em>.
+									                    </div>
+									                </div>
+									            </div>
+
+									            <div class="panel panel-default">
+									                <div class="panel-heading" role="tab" id="headingFive">
+									                    <h4 class="panel-title">
+									                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+									                            For the Love of an Archangal
+									                        </a>
+									                    </h4>
+									                </div>
+									                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+									                    <div class="panel-body">
+									                        A story of the bitter rivalry between God and Satan. This book cronicles what happens when the divine decide to toy with the mortal
+									                    </div>
+									                </div>
+									            </div>
+
+									        </div>
+									    </div>
+									</div>
+
 					    		</div>
 					    	</div>
 				    	</div>
@@ -167,7 +290,7 @@
 				    						</a>
 				    					</div>
 				    				</div>
-				    			
+
 				    				<div class="media">
 				    					<div class="media-left">
 				    						<img class="media-object short-img" src="img/gears-levers-3.jpg">
@@ -181,27 +304,27 @@
 					    					</a>
 					    				</div>
 					    			</div>
-				    			
+
 				    				<div class="media">
 				    					<div class="media-left">
 				    						<img class="media-object short-img" src="img/witches-stiches-bitches.jpg">
 				    					</div>
 					    				<div class="media-body short-container">
 					    					<h3 class="media-heading">Forgetting Tomorrow</h3>
-					    					 <p>Appeared in <em>Witches, Stitches, and Bitches</em>, from Evil Girlfriend Media. (Summer of 2013)</p> 
+					    					 <p>Appeared in <em>Witches, Stitches, and Bitches</em>, from Evil Girlfriend Media. (Summer of 2013)</p>
 
 					    					 <a href="http://amzn.com/B00F4VG1VM">
 					    					 	<button class="btn btn-xs btn-warning">Buy</button>
 					    					 </a>
 					    				</div>
 					    			</div>
-				    			
+
 				    				<div class="media">
 				    					<div class="media-left">
-				    						<img class="media-object short-img" src="img/beer-saves-1.jpg">
+				    						<img class="media-object short-img" src="img/beer-saved-world.jpg">
 				    					</div>
-					    				<div class="media-body short-container"> 
-					    					<h3 class="media-heading">Band of Brewers</h3> 
+					    				<div class="media-body short-container">
+					    					<h3 class="media-heading">Band of Brewers</h3>
 					    					<p>Appeared in <em>How Beer Saved the World</em>, from Sky Warrior Books (April 2013)</p>
 
 					    					<a href="http://amzn.com/B00CK69RTW">
@@ -228,8 +351,8 @@
     			    					<div class="media-left">
     			    						<img class="media-object short-img" src="img/exodi.jpg">
     			    					</div>
-    				    				<div class="media-body short-container"> 
-    					    				<h3 class="media-heading">Scott's Planet</h3> 
+    				    				<div class="media-body short-container">
+    					    				<h3 class="media-heading">Scott's Planet</h3>
     					    				<p>Appeared in <em>The Book of Exodi</em>, from Eposic (May, 2009)</p>
 
     					    				<a href="http://amzn.com/1936075008">
@@ -294,7 +417,6 @@
 				    		</div>
 			    		</div>
 			    	</div>
-
 				</div>
 			</div>
 			<p>Some stuff</p>
@@ -316,7 +438,7 @@
 
 
 
-<!-- 
+<!--
 ///////////////////////////////////////////////////////////////////
 
 /////////// Notes
@@ -326,7 +448,7 @@ short fiction section from original site:
 - Scott's Planet  Appeared May, 2009 in The Book of Exodi, from Eposic
 - Tommy Tales, Appeared April, 2012 in Gears and Levers  1 from Sky Warrior Books
 - The Engineer, Appearing Summer of 2013 in Gears and Levers 3 from Sky Warrior Books
-- Forgetting Tomorrow, Appeared Summer of 2013 in Witches, Stitches, and Bitches from Evil Girlfriend Media.  
+- Forgetting Tomorrow, Appeared Summer of 2013 in Witches, Stitches, and Bitches from Evil Girlfriend Media.
 - Band of Brewers, Appeared, April 2013,  How Beer Saved the World from Sky Warrior Books
 
 NEED BOB TO GIVE SMALL SYNOPSIS OF EACH STORY !!!
