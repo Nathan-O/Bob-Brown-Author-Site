@@ -10,18 +10,18 @@ $(document).ready(function(){
 	//sanity check
 	console.log("So far so good...");
 
-	$("#typeTest").on("click", function (){
-		typeReq();
-		typeInit();
-		typeMem();
-		typeDot1();
-		typeDot2();
-		typeDot3();
-		typeFound();
-		typeBreak();
-
-		callType();
-	});
+	// $("#typeTest").on("click", function (){
+	// 	typeReq();
+	// 	typeInit();
+	// 	typeMem();
+	// 	typeDot1();
+	// 	typeDot2();
+	// 	typeDot3();
+	// 	typeFound();
+	// 	typeBreak();
+	//
+	// 	callType();
+	// });
 });
 
 var reqReq = "- Request: q=9d8g986303jm74058k8.352-b.5";
@@ -81,6 +81,19 @@ function typeFound (){
 
 function typeBreak (){
 	beforeType("#break-line", lineBreak, 0);
+}
+
+
+var functionCall = [typeReq, typeInit, typeMem, typeDot1, typeDot2, typeDot3, typeFound, typeBreak, callType];
+
+function typeToConsole(array, i) {
+	var toCall = array[i++];
+	toCall();
+	setTimeout(function(){
+		typeToConsole(array, i);
+	},
+	2000
+	);
 }
 
 // function preType (){
