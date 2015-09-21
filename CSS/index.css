@@ -4,11 +4,19 @@
 					Bob Brown Author Site
 					   CSS Style Sheet
 
-////////////////////////////////////////////////////////////////					   
+////////////////////////////////////////////////////////////////
+*/
+
+/*
+Color Scheme:
+Slate Blue: #252839
+Dark Grey: #677077
+Light Grey: #b5b5b7
+Yellow: #f2b632
 */
 
 body {
-	background-color: lightgrey;	
+	background-color: #677077;
 }
 
 h1 {
@@ -17,33 +25,37 @@ h1 {
 
 
 ul {
-	background-color: orange;
+	background-color: #f2b632;
 }
 
 li {
 	margin-left: 5px;
 }
 
+#nav-tabs li.active {
+	background-color: #b5b5b7;
+}
+
 .main-panel {
-	background-color: white;
+	background-color: #b5b5b7;
 	height: 1100px;
 	width: 1100px;
 	padding: 10px;
-	border: 1px green dashed;
+	/*border: 1px green dashed;*/
 	margin: 0px auto;
 }
 
 .panContainer {
-	background-color: lightgrey;
+	background-color: #677077;
 	width: 100%;
 	margin: 5px;
 	padding: 10px;
-	border: 1px blue solid;
-	
+	/*border: 1px blue solid;*/
+
 }
 
 #bobHeader {
-	background-color: white;
+	background-color: #b5b5b7;
 	font-family: 'Stalinist One', cursive;
 }
 
@@ -53,7 +65,7 @@ li {
 }
 
 .nav-container {
-	background-color: white;
+	background-color: #b5b5b7;
 }
 
 /*
@@ -237,15 +249,56 @@ original size height 500 width 325
 /*
 ////////////////////////////////////
 
-			Section
+			Test
 
 ////////////////////////////////////
 */
+/*#comp-terminal {
+	border-style: solid;
+	border-width: 82px 53px 214px 48px;
+	-moz-border-image: url(../img/comp-terminal.jpg) 82 53 214 48 stretch;
+	-webkit-border-image: url(../img/comp-terminal.jpg) 82 53 214 48 stretch;
+	-o-border-image: url(../img/comp-terminal.jpg) 82 53 214 48 stretch;
+	border-image: url(../img/comp-terminal.jpg) 82 53 214 48 fill stretch;
+}*/
 
+#comp-terminal {
+	border: 65px;
+	border-color: white;
+	border-style: inset;
+	border-radius: 15px;
+}
 
+#type-out-wrapper {
+	background-color: rgb(47, 47, 47);
+	padding: 10px;
+	border: 2px white solid;
+	border-radius: 10px;
+}
 
+.mock-con-readout {
+	font-family: 'Share Tech Mono', ;
+	/*color: rgb(12, 168, 27);*/
+	color: rgb(31, 204, 250);
+}
 
+.con-title {
+	text-align: center;
+}
 
+#head-data td {
+	width: 165px;
+}
+
+#type-out {
+	font-family: 'Share Tech Mono', ;
+}
+
+#curser {
+	height: 20px;
+	width: 10px;
+	background-color: rgb(12, 168, 27);
+}
 
 
 
@@ -254,24 +307,24 @@ original size height 500 width 325
 
 ////////// Notes
 
-links panel has a portal. 
+links panel has a portal.
 
-- set of a few divs made into circles, all one inside the other. 
+- set of a few divs made into circles, all one inside the other.
 
-	-outermost: has a space sort of high orbit planet 
+	-outermost: has a space sort of high orbit planet
 				view as a background image.
 
-	-middle: has a white background, a lot of margins 
+	-middle: has a white background, a lot of margins
 			 and a lot of padding.
 
-	-innermost: has a transparent background (making 
-				the planet picture visible again) and 
-				a good sizing on it as well (still be 
+	-innermost: has a transparent background (making
+				the planet picture visible again) and
+				a good sizing on it as well (still be
 				scaleable)
 
-	-content: circle as well, solid background with 
-			  links and such in the middle (maybe just 
-			  off sides...we'll see, circle might be 
+	-content: circle as well, solid background with
+			  links and such in the middle (maybe just
+			  off sides...we'll see, circle might be
 			  hard);
 
 
@@ -284,11 +337,3 @@ links panel has a portal.
 
 ///////////////////////////////////////////////////////////////////////////////
 */
-
-
-
-
-
-
-
-
