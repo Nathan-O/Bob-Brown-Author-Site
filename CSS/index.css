@@ -7,6 +7,21 @@
 ////////////////////////////////////////////////////////////////
 */
 
+.pan-custom {
+	background-color: #252839;
+	background-image:
+	 radial-gradient(
+	   #b5b5b7, #252839
+	 );
+	color: #f2b632;
+	text-align: center;
+}
+
+.lighten {
+	color: #b5b5b7;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
 /*
 Color Scheme:
 Slate Blue: #252839
@@ -14,6 +29,33 @@ Dark Grey: #677077
 Light Grey: #b5b5b7
 Yellow: #f2b632
 */
+
+.gradient-blue {
+	background-color: #252839;
+	background-image:
+	 linear-gradient(
+	   to top,
+	   #b5b5b7, #252839
+	 );
+}
+
+.gradient-yellow {
+	background-color: #f2b632;
+	background-image:
+	 linear-gradient(
+	   to top,
+	   #677077, #f2b632
+	 );
+}
+
+.gradient-grey {
+	background-color: #677077;
+	background-image:
+	 linear-gradient(
+	   to top right,
+	   #b5b5b7, #677077
+	 );
+}
 
 body {
 	background-color: #677077;
@@ -36,6 +78,7 @@ li {
 	background-color: #b5b5b7;
 }
 
+
 .main-panel {
 	background-color: #b5b5b7;
 	height: 1100px;
@@ -55,7 +98,12 @@ li {
 }
 
 #bobHeader {
-	background-color: #b5b5b7;
+	background-color: #677077;
+	background-image:
+	 linear-gradient(
+	   to right,
+	   #b5b5b7, #677077
+	 );
 	font-family: 'Stalinist One', cursive;
 }
 
@@ -297,7 +345,7 @@ original size height 500 width 325
 #curser {
 	height: 20px;
 	width: 10px;
-	background-color: rgb(12, 168, 27);
+	background-color: rgb(31, 204, 250);
 }
 
 
